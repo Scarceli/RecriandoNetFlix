@@ -1,0 +1,40 @@
+:root{    /*raiz = onde declara variaveis*/
+    --vermelho: #e50914; /*variavel*/
+    --preta: #141414;
+}
+
+body{
+    background-color: var(--preta); /*usando a variavel*/     
+    font-family: 'Times New Roman', Times, serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+header .container{
+    display: flex; /*deixa as div em horizontal*/
+    flex-direction: row; /*deixa as div em horizontal*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+

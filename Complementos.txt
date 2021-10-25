@@ -1,0 +1,12 @@
+Font Awesome (https://fontawesome.com/)
+
+Font Awesome = site que permite criar icones no html sm precisar baixar, somnte referenciando.
+Copia do site a refencia e cola na tag desejada.
+
+Owl Carousel (https://owlcarousel2.github.io/OwlCarousel2/)
+
+Owl Carousel = plugin jquery de onde uilizaremos o carrossel dos filmes
+1- copiar da pasta "\OwlCarousel2-2.3.4\docs\assets\vendors" o arquivo jquery.min.js e owl.carousel.min.js e colar na na pasta JavaScritp(JS)  do seu projeto
+2- copiar da pasta "\OwlCarousel2-2.3.4\dist\assets" o arquivo owl.carousel.min.css e owl.themes.dafaut.min.css e colar na na pasta JavaScritp(JS)  do seu projeto
+
+No site do owl tem demos com os codigos em html e javasript 

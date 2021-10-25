@@ -1,0 +1,45 @@
+@media screen and (max-width: 600px) {   /*@media (media query) = regras e condições para tela = screen */
+    header .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .botao{
+        margin-top: 5px;
+        width: 320px;
+    }
+}
+
+
+@media screen and (max-width: 420px) and (max-height: 750px) {   /*@media (media query) = regras e condições para tela = screen */
+    .churrasco-principal{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        height: 335px;
+        
+    }
+
+    .churrasco-principal .titulo{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 30px
+    }
+    .churrasco-principal .descricao{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .botoes{
+        margin-top: 5px;
+        width: 320px;
+    }
+}
+
+
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+}

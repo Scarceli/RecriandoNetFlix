@@ -5,19 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
-    <title>NetFlix</title>
+    <!--owl-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/responsive.css"></link> 
+   
+    <title>NetGrill</title>
+
 </head>
 <body>
-   <header>
-       <div class="container">
-           <h2 class="logo">NETFLIX</h2>
-           <nav> <!-- menu de navegação -->
+    <header>
+        <div class="container">
+            <h2 class="logo">NETGRILL</h2>
+            <nav> <!-- menu de navegação -->
                 <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
-           </nav>
-       </div>
-   </header> 
+                <a href="#">Corte</a>
+                <a href="#">Tempero</a>
+                <a href="#">Preparo</a>
+            </nav>
+        </div>
+    </header> 
+    <main>
+        <div class="churrasco-principal">
+            <div class="container">
+                <h3 class="titulo">CHURRASCO</h3>
+                <p class="descricao">O preparo do churrasco exige cuidado especial desde a escolha da carne, o corte, o tempero, o preparo até a hora de servir. O resultado é facilmente percebido no paladar e agrada até os mais exigentes.</p>
+                <div class="botoes">
+                    <button class="botao" role="button" onclick="carregarPlay()"> <!--role = Para falar qual a funcção em mobile etc-->
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button class="botao" role="button" onclick="maisInformacoes()">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- html owl-->
+    <div class="Carrossel">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <p class="carne">Alcatra</p>
+                <a href="https://www.youtube.com/watch?v=ayhScyPgUAU" target="blank">
+                    <img class="box-Carne" src="img/Alcatra.jpg" alt="Alcatra">
+                </a>
+            </div>
+            <div class="item">
+                <p class="carne">Contra Filé</p>
+                <a href="https://www.youtube.com/watch?v=RwdRnJojb-w" target="blank">
+                    <img class="box-Carne" src="img/Contra-file.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <p class="carne">Costela</p>
+                <a href="https://www.youtube.com/watch?v=1yS6aOoyV8I" target="blank">
+                    <img class="box-Carne" src="img/Costela.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <p class="carne">Cupim</p>
+                <a href="https://www.youtube.com/watch?v=DKKmdv8owRw" target="blank">
+                    <img class="box-Carne" src="img/Cupim.jpg" alt="">
+                </a>    
+            </div>
+            <div class="item">
+                <p class="carne">Fraldinha</p>
+                <a href="https://www.youtube.com/watch?v=3GzAVCwENio" target="blank">
+                    <img class="box-Carne" src="img/Fraldinha.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <p class="carne">Maminha</p>
+                <a href="https://www.youtube.com/watch?v=ebVV2_QauDY"  target="blank">
+                    <img class="box-Carne" src="img/Maminha.jpg" alt="">
+                </a>
+            </div>
+            <div class="item">
+                <p class="carne">Picanha</p>
+                <a href="https://www.youtube.com/watch?v=L-DTcYqe4nI" target="blank">
+                    <img class="box-Carne" src="img/Picanha.jpg" alt="">
+                </a>
+            </div>
+        </div>    
+    </div>
+
+
+    <!--Recomendado o JavaScript ser carregado no final do html-->
+    <!--font awesome -->    
+    <script src="https://kit.fontawesome.com/1893b10cb2.js" crossorigin="anonymous"></script>
+    <!--owl -->    
+    <script src="js/owl/jquery.min.js"></script> 
+    <script src="js/owl/owl.carousel.min.js"></script> 
+    <!--JavaScript-->
+    <script src="js/owl/Setup.js"></script> 
+    
 </body>
 </html>
